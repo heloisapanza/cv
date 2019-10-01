@@ -1,0 +1,134 @@
+/* reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/* conteiner */
+.container  {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+    @media (min-width: 1170px) {
+        .container {
+            max-width: 1170px;
+            padding: 0;
+        }
+    }
+
+/* linha */
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+    .row:before,
+    .row:after {
+        content: "";
+        display: table;
+    }
+    .row:after {
+        clear: both;
+    }
+
+/* coluna */
+.col {
+    display: inline-block;
+    vertical-align: top;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    margin-right: -4px;
+    *zoom: 1;
+    *display: inline;
+}
+   
+@media (max-width: 720px) {
+    iframe{
+        width: 100%;
+        height: 200px;
+    }
+    
+    h1{
+		font-size: 14px;
+	}      
+}
+
+.teste {
+    background: #fff;
+    padding: 5px;
+    text-align: center;
+    margin: 2px 0;
+    color: #fff;
+}
+
+.curriculum{
+    background-color: white;
+    border-radius: 7px;
+}
+
+h1{
+    font-size: 300%;
+    color:  #008B8B;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    font-family: cursive, serif;
+    color: #008B8B;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 20px;
+    font-family: tahoma;
+    color: #20B2AA;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 18px;
+    font-family: tahoma;
+    color: black;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ol{
+    font-size: 18px;
+    font-family: tahoma;
+    color: black;
+}
+
+.subtitulo{
+    font-size: 18px;
+    font-style: bold; 
+    font-family: tahoma;
+    color: #5F9EA0;
+    font-weight: bolder;
+}   
+
+.lista{
+    color: black;
+    text-align: center;
+}   
+
+.perfil{
+    border-radius: 130px;
+    margin-top: 2%;
+    width:200px;
+    height:200px;
+}
+
+
